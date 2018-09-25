@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping(value = "test/users", method = RequestMethod.GET)
     public String getUsers(){
-        return "Returning List of Usersv2";
+        return "Returning List of Usersv3";
     }
 
 }
